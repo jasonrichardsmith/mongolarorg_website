@@ -176,7 +176,7 @@ mongolar.directive('mongolar', function mongolar($http, $compile, $rootScope, mo
       'mongolardyn' : '@',
       'mongolaritterance': '@'
     },
-    template: '<div ng-include = "getTemplate()" ng-hide="hide"></div>',
+    template: '<span ng-include = "getTemplate()" ng-hide="hide"></span>',
       link : function(scope)
       {
           scope.getTemplate = function(){

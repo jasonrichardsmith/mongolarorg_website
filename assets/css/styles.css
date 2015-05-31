@@ -4,4 +4,10 @@ body { padding-bottom: 70px; }
 	padding: 20px 0px 100px;
 }
 
+.page-wrapper{
+	padding-top: 75px;
+}
 
+.front-page-images{
+	height: 270px;
+}
